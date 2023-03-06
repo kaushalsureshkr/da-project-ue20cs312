@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <center>
+<h1>Dyslexia Details - Standardized Test</h1>
+
+<form action="{{ url_for('sendstdtest')}}" method="post">
+  <label for="lang"><mark>Language Vocabulary:</mark></label><br>
+  <input type="text" id="lang" name="lang"  style="text-align:center"><br>
+  <label for="memory"><mark>Memory:</mark></label><br>
+  <input type="text" id="memory" name="memory"  style="text-align:center"><br>
+  <label for="speed"><mark>Speed:</mark></label><br>
+  <input type="text" id="speed" name="speed"  style="text-align:center"><br>
+  <label for="visual"><mark>Visual</mark></label><br>
+  <input type="text" id="visual" name="visual"  style="text-align:center"><br>
+  <label for="audio"><mark>Audio:</mark></label><br>
+  <input type="text" id="audio" name="audio"  style="text-align:center"><br>
+  <label for="survey"><mark>Survey:</mark></label><br>
+  <input type="text" id="survey" name="survey"  style="text-align:center"><br>
+  <button type="submit">Confirm</button>
+</form>
+</center>
+</body>
+</html>

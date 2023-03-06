@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <center>
+<h1>Dyslexia Details - EEG Scans</h1>
+
+<form action="{{ url_for('sendeeg')}}" method="post">
+  <h3>EEG signal frequencies</h3>
+  
+  <label for="subid"><mark>SubjectID:</mark></label><br>
+  <input type="text" id="subid" name="subid" style="text-align:center"><br>
+  <label for="age"><mark>Age:</mark></label><br>
+  <input type="text" id="age" name="age" style="text-align:center"><br>
+  <label for="vidid"><mark>VideoID:</mark></label><br>
+  <input type="text" id="vidid" name="vidid" style="text-align:center"><br>
+  <label for="attent"><mark>Attention:</mark></label><br>
+  <input type="text" id="attent" name="attent" style="text-align:center"><br>
+  <label for="mediat"><mark>Mediation:</mark></label><br>
+  <input type="text" id="mediat" name="mediat" style="text-align:center"><br>
+  <label for="raw"><mark>Raw:</mark></label><br>
+  <input type="text" id="raw" name="raw" style="text-align:center"><br>
+  <label for="delta"><mark>Delta:</mark></label><br>
+  <input type="text" id="delta" name="delta" style="text-align:center"><br>
+  <label for="theta"><mark>Theta:</mark></label><br>
+  <input type="text" id="theta" name="theta" style="text-align:center"><br>
+  <label for="alphao"><mark>Alpha1:</mark></label><br>
+  <input type="text" id="alphaa" name="alphaa" style="text-align:center"><br>
+  <label for="alphab"><mark>Alpha2:</mark></label><br>
+  <input type="text" id="alphab" name="alphab" style="text-align:center"><br>
+  <label for="betaa"><mark>Beta1:</mark></label><br>
+  <input type="text" id="betaa" name="betaa" style="text-align:center"><br>
+  <label for="betab"><mark>Beta2:</mark></label><br>
+  <input type="text" id="betab" name="betab" style="text-align:center"><br>
+  <label for="gammaa"><mark>Gamma1:</mark></label><br>
+  <input type="text" id="gammaa" name="gammaa" style="text-align:center"><br>
+  <label for="gammab"><mark>Gamma2:</mark></label><br>
+  <input type="text" id="gammab" name="gammab" style="text-align:center"><br>
+  <button type="submit" class="green margin-right">Confirm</button>
+</form>
+</center>
+</body>
+</html>
